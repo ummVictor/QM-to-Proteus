@@ -12,6 +12,8 @@
 
 This repository aims to provide a guide on how to convert the QM Modeling diagrams into Proteus
 
+###What is QM Modeling/Proteus?
+
 ## Installation
 
 To begin converting QM concepts to Proteus, you'll need to have the Proteus software installed on your system. You can download and install Proteus from the official [Labcenter Electronics website](https://www.labcenter.com/).
