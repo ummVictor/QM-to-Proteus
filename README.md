@@ -9,10 +9,11 @@
 5. [Contributing](#contributing)
 
 ## Introduction
-
-This repository aims to provide a guide on how to convert the QM Modeling diagrams into Proteus
-
-### What is QM Modeling/Proteus?
+This repository aims to provide a guide on how to convert the QM Modeling diagrams into Proteus.
+### What is QM Modeling
+  QM Modeling is a visual modeling tool that provides a user-friendly graphical interface to map out the flow and behavior of the state machines.
+### What is Proteus
+Proteus provides a textual representation of the diagrams represented in QM Modeling.
 
 ## Installation
 
