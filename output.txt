@@ -1,0 +1,40 @@
+//Proteus
+
+//beginning of the List of Triggers/Event
+event unlock();;
+event Random;
+event lock();;
+event TRIG;
+event 4-5;
+//end of the List of Triggers/Event
+
+actor learn{
+    statemachine {
+        initial Locked;
+        state Locked {
+            on unlock(); {
+                go Unlocked;
+            }
+            on Random {
+                go 4th State;
+            }
+        }
+        state Unlocked {
+            on lock(); {
+                go Locked;
+            }
+        }
+        state empty {
+            on TRIG {
+                go self;
+            }
+        }
+        state 4th State {
+            on 4-5 {
+                go 5th State;
+            }
+        }
+        state 5th State {
+        }
+    }
+}
