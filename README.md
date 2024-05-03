@@ -7,11 +7,10 @@
 3. [Usage](#usage)
 4. [Examples](#examples)
 5. [Contributing](#contributing)
-6. [License](#license)
 
 ## Introduction
 
-This repository aims to provide a guide on how to convert Quantum Mechanics (QM) concepts to Proteus, a simulation software commonly used in electronics and electrical engineering.
+This repository aims to provide a guide on how to convert the QM Modeling diagrams into Proteus
 
 ## Installation
 
@@ -35,6 +34,4 @@ Each example will include step-by-step instructions and explanations to guide yo
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Contributions such as additional examples, improvements to existing content, or bug fixes are welcome!
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
