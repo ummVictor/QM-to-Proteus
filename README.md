@@ -12,7 +12,7 @@
 
 This repository aims to provide a guide on how to convert the QM Modeling diagrams into Proteus
 
-#### What is QM Modeling/Proteus?
+### What is QM Modeling/Proteus?
 
 ## Installation
 
