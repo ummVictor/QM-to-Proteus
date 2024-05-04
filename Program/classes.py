@@ -1,5 +1,20 @@
-from cxml import findDestination
-
+def findDestination(transition):
+    # Importing processxml locally
+    from processxml import stateObjList
+    
+    #Split destination string into list of strings
+    ls = transition.destination.split("/") 
+    #Retrieve end of list
+    trans_index = ls[-1]
+    #Check if last element is a number
+    if(trans_index.isnumeric()):
+        #Find the corresponding state in state list
+        return (stateObjList[int(trans_index) - 1])
+    #Last element is the string ".." so we have a self transition
+    else:
+        return "self"
+    
+    
 class State:
     def __init__(self, stateName, entryA, exitA, transitions):
         self.stateName = stateName

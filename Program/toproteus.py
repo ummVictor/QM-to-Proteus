@@ -1,5 +1,5 @@
 from processxml import trigParseList, stateObjList
-from cxml import findDestination
+from classes import findDestination
 
 def writeProteus():
     with open('output.proteus', 'w') as f:

@@ -1,11 +1,8 @@
 import xml.etree.ElementTree as ET
 from classes import State, Transition, Trigger
 
-#Next issue: Store how the states connects to each other 
-#   (list of string names for list of states and events) 
-#   (connections are displayed in map format, tuple arrays of entries)
-
-tree = ET.parse('statemachine.qm')
+# change the path to the path of your state diagram
+tree = ET.parse(r'C:\Users\victo\Desktop\GIT\QM-to-Proteus\QM-to-Proteus\Program\statemachine.qm')
 root = tree.getroot()
 
 stateParseList = []
@@ -14,7 +11,6 @@ trigParseList = []
 trigObjList = []
 tranParseList = []
 tranObjList = []
-
 
 
 def traverse(element):
