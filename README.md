@@ -28,11 +28,11 @@ Once you have QM™ Model-Based Design Tool and Proteus installed, you can start
 - Create the state machine in QM™ Model-Based Design Tool
   ![StateMachineDiagram](image1.png)
 - Make sure the state machine is saved as *statemachine.qm* and in the same folder with the program
-- In the [*processxml.py*](processxml.py) change the code in line5 to the PATH of your statemachine.qm
-- Run [*main.py*](main.py) in your CMD Prompt
+- In the [*processxml.py*](Program/processxml.py) change the code in line5 to the PATH of your statemachine.qm
+- Run [*main.py*](Program/main.py) in your CMD Prompt
 - Output in CMD Prompt:
   ![image](https://github.com/ummVictor/QM-to-Proteus/assets/127917615/53d41864-c00d-4a22-9ca5-afb94bc07a5f)
-- and a file called [*output.proteus*](output.proteus) will be created and it's the proteus code in correlation to the state machine diagram.
+- and a file called [*output.proteus*](Program/output.proteus) will be created and it's the proteus code in correlation to the state machine diagram.
 
 
 
