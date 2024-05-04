@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Examples](#examples)
+
 
 
 ## Introduction
@@ -24,17 +24,16 @@ To begin converting QM concepts to Proteus, you'll first need to have QM Modelin
 ## Usage
 
 Once you have QM™ Model-Based Design Tool and Proteus installed, you can start converting state machines into Proteus. 
-### Examples
+### Example
 - Create the state machine in QM™ Model-Based Design Tool
-![StateMachineDiagram](image1.png)
+  ![StateMachineDiagram](image1.png)
+- Make sure the state machine is saved as *statemachine.qm* and in the same folder with the program
+- In the [*processxml.py*](processxml.py) change the code in line5 to the PATH of your statemachine.qm
+- Run [*main.py*](main.py) in your CMD Prompt
+- Output in CMD Prompt:
+  ![image](https://github.com/ummVictor/QM-to-Proteus/assets/127917615/53d41864-c00d-4a22-9ca5-afb94bc07a5f)
+- and a file called [*output.proteus*](output.proteus) will be created and it's the proteus code in correlation to the state machine diagram.
 
-Here are some examples of how you can convert specific QM concepts to Proteus circuits:
-
-- Simulating Quantum Gates
-- Modeling Quantum States
-- Implementing Quantum Algorithms
-
-Each example will include step-by-step instructions and explanations to guide you through the conversion process.
 
 
 
