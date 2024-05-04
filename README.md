@@ -17,7 +17,9 @@ Proteus is a programming language that provides a textual representation of the 
 
 ## Installation
 
-To begin converting QM concepts to Proteus, you'll first need to have QM Modeling and Proteus installed on your system. You can download and install QM Modeling from the official QM™ Model-Based Design Tool [DOWNLOAD]([https://www.labcenter.com/](https://www.state-machine.com/products/qm)) and. download and install Proteus [DOWNLOAD](https://github.com/nasa/PROTEUS)
+To begin converting QM concepts to Proteus, you'll first need to have QM Modeling and Proteus installed on your system. 
+- To download and install QM Modeling from the official QM™ Model-Based Design Tool [DOWNLOAD]([https://www.labcenter.com/](https://www.state-machine.com/products/qm)) 
+- To download and install Proteus [DOWNLOAD](https://github.com/nasa/PROTEUS)
 
 ## Usage
 
