@@ -6,7 +6,7 @@
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Examples](#examples)
-5. [Contributing](#contributing)
+
 
 ## Introduction
 This repository aims to provide a guide on how to convert the QM Modeling diagrams into Proteus.
@@ -23,9 +23,10 @@ To begin converting QM concepts to Proteus, you'll first need to have QM Modelin
 
 ## Usage
 
-Once you have Proteus installed, you can start converting QM concepts by creating circuits and simulations that mimic the behavior of quantum systems. This README will provide guidelines and examples to help you get started.
-
-## Examples
+Once you have QM™ Model-Based Design Tool and Proteus installed, you can start converting state machines into Proteus. 
+### Examples
+- Create the state machine in QM™ Model-Based Design Tool
+![StateMachineDiagram](image1.png)
 
 Here are some examples of how you can convert specific QM concepts to Proteus circuits:
 
@@ -35,8 +36,5 @@ Here are some examples of how you can convert specific QM concepts to Proteus ci
 
 Each example will include step-by-step instructions and explanations to guide you through the conversion process.
 
-## Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Contributions such as additional examples, improvements to existing content, or bug fixes are welcome!
 
 
