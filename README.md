@@ -11,14 +11,13 @@
 ## Introduction
 This repository aims to provide a guide on how to convert the QM Modeling diagrams into Proteus.
 #### What is QM Modeling?
-  QM Modeling is a visual modeling tool that provides a user-friendly graphical interface to map out the flow and behavior of the state machines.
+QM Modeling is a visual modeling tool that provides a user-friendly graphical interface to map out the flow and behavior of the state machines.
 #### What is Proteus?
-Proteus provides a textual representation of the diagrams represented in QM Modeling.
-
+Proteus is a programming language that provides a textual representation of the diagrams represented in QM Modeling.
 
 ## Installation
 
-To begin converting QM concepts to Proteus, you'll need to have the Proteus software installed on your system. You can download and install Proteus from the official [Labcenter Electronics website](https://www.labcenter.com/).
+To begin converting QM concepts to Proteus, you'll first need to have QM Modeling and Proteus installed on your system. You can download and install QM Modeling from the official [QM™ Model-Based Design Tool]([https://www.labcenter.com/](https://www.state-machine.com/products/qm)) and. download and install [Proteus](https://github.com/nasa/PROTEUS)
 
 ## Usage
 
