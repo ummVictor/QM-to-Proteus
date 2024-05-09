@@ -5,7 +5,7 @@ from classes import State, Transition, Trigger
 #   (list of string names for list of states and events) 
 #   (connections are displayed in map format, tuple arrays of entries)
 
-tree = ET.parse('learn.qm')
+tree = ET.parse('statemachine.qm')
 root = tree.getroot()
 
 stateParseList = []
