@@ -37,5 +37,12 @@ Once you have QM™ Model-Based Design Tool and Proteus installed, you can start
   ![image](https://github.com/ummVictor/QM-to-Proteus/assets/127917615/0a5f7a54-7c91-4804-ba75-5c551ae048a8)
 
 
+## Limitations
+- Only supports linear state machines
+- Does not manage guard conditions
+- Allows conversion from QM to Proteus, but not Proteus to QM
+
+
+ 
 
 
