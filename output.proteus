@@ -1,9 +1,9 @@
 //Proteus
 
 //beginning of the List of Triggers/Event
-event unlock;
+event unlock();;
 event Random;
-event lock;
+event lock();;
 event TRIG;
 event 4-5;
 //end of the List of Triggers/Event
@@ -12,7 +12,7 @@ actor learn{
     statemachine {
         initial Locked;
         state Locked {
-            on unlock {
+            on unlock(); {
                 go Unlocked;
             }
             on Random {
@@ -20,7 +20,7 @@ actor learn{
             }
         }
         state Unlocked {
-            on lock {
+            on lock(); {
                 go Locked;
             }
         }
